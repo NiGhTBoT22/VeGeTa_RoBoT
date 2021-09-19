@@ -191,7 +191,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add Kurumi Chan to your group",
+                            text="☑️ Add VeGeTa_RoBoT to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
@@ -201,7 +201,7 @@ def start(update: Update, context: CallbackContext):
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
                              text="My luv ❤",
-                             url="https://t.me/joinchat/7GEmh_0vrmxhZDE1")
+                             url="https://t.me/joinchat/MzedbzLFDbAyMjE1")
                     ], 
                      [
                          InlineKeyboardButton(
