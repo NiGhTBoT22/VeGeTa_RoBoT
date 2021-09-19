@@ -201,17 +201,17 @@ def start(update: Update, context: CallbackContext):
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
                              text="My luv ❤",
-                             url="https://t.me/A_lonelyPerson")
+                             url="https://t.me/joinchat/7GEmh_0vrmxhZDE1")
                     ], 
                      [
                          InlineKeyboardButton(
-                             text="🔔 Updates of KURUMI 🔔",
-                             url="https://t.me/hiroiscool")
+                             text="🔔 Updates of VeGeTa 🔔",
+                             url="https://t.me/night_bot_logs")
                     ], 
                      [
                          InlineKeyboardButton(
-                             text="📳 Anime Chat Group 📳",
-                             url="https://t.me/WeebXWorld")
+                             text="📳 Our Chat Group 📳",
+                             url="https://t.me/mems_nems")
                     ]]))
                      
                     
