@@ -6,9 +6,9 @@
 
 A modular Telegram Group Management bot made using [KURUMI Chan](https://t.me/Kurumi_0bot) as base repo.
 
-Can be found on telegram as [ThE_VeGeTa_RoBoT](https://t.me/Kurumi_0bot).
+Can be found on telegram as [ThE_VeGeTa_RoBoT](https://t.me/ThE_VeGeTa_RoBoT).
 
-The Support group can be reached out to at [VeGeTa_Support](https://t.me/vegeta_support), where you can ask for help about [KURUMI Chan](https://t.me/Kurumi_0bot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [VeGeTa_Support](https://t.me/vegeta_support), where you can ask for help about [ThE_VeGeTa_RoBoT](https://t.me/ThE_VeGeTa_RoBoT), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 ## How to setup/deploy.
 
