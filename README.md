@@ -1,14 +1,14 @@
-# KURUMIBOT
-![KURUMI Chan](https://telegra.ph/file/e86cbb3e4a413f36c5aae.jpg)
-# KURUMI Chan
+# THE ALL NEW @ThE_VeGeTa_RoBoT  💫
+![KURUMI Chan](https://telegra.ph/file/273496a28bd1b9fc26b96.jpg)
+# VeGeTa_RoBoT
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)!]
 
 
 A modular Telegram Group Management bot made using [KURUMI Chan](https://t.me/Kurumi_0bot) as base repo.
 
-Can be found on telegram as [KURUMI Chan](https://t.me/Kurumi_0bot).
+Can be found on telegram as [ThE_VeGeTa_RoBoT](https://t.me/Kurumi_0bot).
 
-The Support group can be reached out to at [KURUMI Support](https://t.me/kurumisupport), where you can ask for help about [KURUMI Chan](https://t.me/Kurumi_0bot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [VeGeTa_Support](https://t.me/vegeta_support), where you can ask for help about [KURUMI Chan](https://t.me/Kurumi_0bot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 ## How to setup/deploy.
 
