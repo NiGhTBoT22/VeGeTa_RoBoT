@@ -205,7 +205,7 @@ def start(update: Update, context: CallbackContext):
                     ], 
                      [
                          InlineKeyboardButton(
-                             text="🔔 Updates of KURUMI 🔔",
+                             text="🔔 Updates of veGeTa 🔔",
                              url="https://t.me/hiroiscool")
                     ], 
                      [
