@@ -52,7 +52,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-I am an Anime themed group management bot. I will use my angel Zafkiel and protect your group. You can find my list of available commands with /help.
+I am an Anime themed group management bot. I will use my Galick Gun and protect your group. You can find my list of available commands with /help.
 """
 
 HELP_STRINGS = """
@@ -219,7 +219,7 @@ def start(update: Update, context: CallbackContext):
                     
     else:
         update.effective_message.reply_video(
-                KURUMI_IMG, caption=f"Zaphkiel!!!!\nI'm here with my Zaphkiel")
+                KURUMI_IMG, caption=f"Galick Gun!!!!\nI'm here with my Galick Gun")
 
 # for test purposes
 def error_callback(update: Update, context: CallbackContext):
