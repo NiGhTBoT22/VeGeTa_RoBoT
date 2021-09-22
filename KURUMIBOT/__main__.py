@@ -219,8 +219,7 @@ def start(update: Update, context: CallbackContext):
                     
     else:
         update.effective_message.reply_video(
-                KURUMI_IMG, caption=f"Galick Gun!!!\nI'm here with my Galick Gun \n<b>Up since:</b> <code>{}</code>".format(uptime),
-            parse_mode=ParseMode.HTML)
+                KURUMI_IMG, caption=f"Galick Gun!!!!\nI'm here with my Galick Gun")
 
 # for test purposes
 def error_callback(update: Update, context: CallbackContext):
