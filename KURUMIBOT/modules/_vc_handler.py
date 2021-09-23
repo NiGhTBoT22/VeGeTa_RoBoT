@@ -4,8 +4,8 @@ import signal
 import ffmpeg  
 from pyrogram import Client, filters
 from pytgcalls import GroupCall
-from MashaRoBot import pbot as app
-from MashaRoBot.pyrogramee.errors import capture_err
+from KURUMIBOT import pbot as app
+from KURUMIBOT.pyrogramee.errors import capture_err
 
 
 GROUP_CALLS = {}
