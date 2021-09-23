@@ -60,8 +60,3 @@ heroku3
 telegraph
 youtube_search
 search_engine_parser
-ffmpeg-python
-psutil
-pytgcalls
-wheel
-PyYouTube
