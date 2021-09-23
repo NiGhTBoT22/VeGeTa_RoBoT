@@ -72,8 +72,8 @@ For all command use / [or](https://telegra.ph/file/9296a03c061cb346efdb6.jpg) !
 TOKISAKI_IMG = "https://telegra.ph/file/273496a28bd1b9fc26b96.jpg"
 KURUMI_IMG = "https://telegra.ph/file/1bcec7b7230ea39ad9166.mp4"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-Click here to donate in [Paypal](https://www.paypal.me/zameeljaz)"""
+DONATE_STRING = """Heya, glad to hear you want to donate!\n
+Plant a tree and give water to birds, that's your donation.."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -211,7 +211,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="📳 Our Fun Chat Group 📳",
-                             url="https://t.me/mems_nems")
+                             url="https://t.me/NiGhT_BoT_MaGiC_ShOw")
                     ]]))
                      
                     
