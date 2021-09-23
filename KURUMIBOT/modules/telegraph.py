@@ -1,4 +1,4 @@
-from KURUMIBOT.tevents import register
+from KURUMIBOT.events import register
 from KURUMIBOT import telethn as tbot
 TMP_DOWNLOAD_DIRECTORY = "tg-File/"
 from telethon import events
