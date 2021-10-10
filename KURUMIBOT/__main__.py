@@ -55,8 +55,7 @@ Hi {}, my name is {}!
 I am an Anime themed group management bot. I will use my Galick Gun and protect your group. You can find my list of available commands with /help.
 """
 
-HELP_STRINGS = """
-VeGeTa is here! 
+HELP_STRINGS = """★彡 𝓘 𝓪𝓶 𝓥𝓮𝓖𝓮𝓣𝓪 (𝓪𝓴𝓪) 𝓤𝓻 𝓢𝓾𝓹𝓮𝓻 𝓢𝓪𝓲𝔂𝓪𝓷 彡★!!!  
 I Use My Powers To Help Admins To Manage Their Groups! 
 *Main* commands available :
  • /help: PM's you this message.
@@ -219,7 +218,7 @@ def start(update: Update, context: CallbackContext):
                     
     else:
         update.effective_message.reply_video(
-                KURUMI_IMG, caption=f"Galick Gun!!!!\nI'm here with my Galick Gun")
+                KURUMI_IMG, caption=f"𝓖𝓪𝓵𝓲𝓬𝓴 𝓖𝓾𝓷!!!\n★彡𝓘'𝓪𝓶 𝓱𝓮𝓻𝓮 𝔀𝓲𝓽𝓱 𝓶𝔂 𝓖𝓪𝓵𝓲𝓬𝓴 𝓖𝓾𝓷彡★")
 
 # for test purposes
 def error_callback(update: Update, context: CallbackContext):
@@ -534,7 +533,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[My Super Saiyan Blue won't let me die!](https://telegra.ph/file/8bbe47c4dcbf90aa49065.mp4)", parse_mode=ParseMode.MARKDOWN) 
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[★彡 𝓜𝔂 𝓢𝓾𝓹𝓮𝓻 𝓢𝓪𝓲𝔂𝓪𝓷 𝓑𝓵𝓾𝓮 𝔀𝓸𝓷'𝓽 𝓵𝓮𝓽 𝓶𝓮 𝓭𝓲𝓮 !!! 彡★](https://telegra.ph/file/8bbe47c4dcbf90aa49065.mp4)", parse_mode=ParseMode.MARKDOWN) 
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!")
