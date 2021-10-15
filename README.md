@@ -167,7 +167,7 @@ For starters click on this button
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Hirojazz/kurumi.git) 
 
-
+## Spl_Credits [STBxD](https://t.me/God_STB) 
 ## Credits
 The bot is based on the original work done by [Hirojazz](https://github.com/Hirojazz) also futher development done by KURUMI Chan creator.
 This repo was just revamped to suit an Anime-centric community. All original credits go to Paul and his dedication, Without his efforts, this fork would not have been possible!
