@@ -178,10 +178,7 @@ def new_member(update: Update, context: CallbackContext):
             if new_mem.id == OWNER_ID:
                 update.effective_message.reply_text(
                     "𝓞𝓱, 𝓖𝓮𝓷𝓸𝓼 ? 𝓣𝓱𝓮 𝓢𝓾𝓹𝓮𝓻 𝓢𝓪𝓲𝔂𝓪𝓷 𝓟𝓻𝓲𝓷𝓬𝓮 𝓲𝓽𝓼𝓮𝓵𝓯 𝓳𝓾𝓼𝓽 𝓳𝓸𝓲𝓷𝓮𝓭🔹.",
-                    reply_to_message_id=reply)
-                update.effective_message.reply_photo(
-                    "https://telegra.ph/file/60606d9b1b0ff21d42e75.jpg",
-                    reply_to_message_id=reply) 
+                    reply_to_message_id=reply), OWNER_IMG = "https://telegra.ph/file/60606d9b1b0ff21d42e75.jpg"
                 welcome_log = (f"{html.escape(chat.title)}\n"
                                f"#USER_JOINED\n"
                                f"Bot Owner just joined the chat")
@@ -492,13 +489,13 @@ def left_member(update: Update, context: CallbackContext):
             # Give the owner a special goodbye
             if left_mem.id == OWNER_ID:
                 update.effective_message.reply_text(
-                    "Oi! Genos! He left..", reply_to_message_id=reply)
+                    "𝓤𝓕𝓕 ! 𝓣𝓱𝓮 𝓢𝓾𝓹𝓮𝓻 𝓢𝓪𝓲𝔂𝓪𝓷 𝓟𝓻𝓲𝓷𝓬𝓮 𝓳𝓾𝓼𝓽 𝓵𝓮𝓯𝓽..", reply_to_message_id=reply)
                 return
 
             # Give the devs a special goodbye
             elif left_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "See you later at the Hero's Association!",
+                    "See you later at the Dragon's Association!",
                     reply_to_message_id=reply,
                 )
                 return
