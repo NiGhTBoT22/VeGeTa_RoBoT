@@ -177,7 +177,8 @@ def new_member(update: Update, context: CallbackContext):
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
                 update.effective_message.reply_text(
-                    "Oh, Genos? The Prince Super Saiyan Blue just joined🔹.",
+                    OWNER_IMG = "https://telegra.ph/file/60606d9b1b0ff21d42e75.jpg"
+                    "Oh, Genos? The Super Saiyan Prince itself just joined🔹.",
                     reply_to_message_id=reply)
                 welcome_log = (f"{html.escape(chat.title)}\n"
                                f"#USER_JOINED\n"
