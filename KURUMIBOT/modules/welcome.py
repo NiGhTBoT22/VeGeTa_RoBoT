@@ -131,7 +131,6 @@ def send(update, message, keyboard, backup_message):
             LOGGER.exception()
     return msg
 
-OWNER_IMG = "https://telegra.ph/file/60606d9b1b0ff21d42e75.jpg" 
 @run_async
 @loggable
 def new_member(update: Update, context: CallbackContext):
@@ -176,8 +175,8 @@ def new_member(update: Update, context: CallbackContext):
 
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
-                update.effective_message.reply_photo(
-                OWNER_IMG, caption=f"𝓞𝓱, 𝓖𝓮𝓷𝓸𝓼? 𝓣𝓱𝓮 𝓢𝓾𝓹𝓮𝓻 𝓢𝓪𝓲𝔂𝓪𝓷 𝓟𝓻𝓲𝓷𝓬𝓮 𝓲𝓽𝓼𝓮𝓵𝓯 𝓳𝓾𝓼𝓽 𝓳𝓸𝓲𝓷𝓮𝓭"🔹., 
+                update.effective_message.reply_text( 
+                    "𝓞𝓱, 𝓖𝓮𝓷𝓸𝓼 ? 𝓣𝓱𝓮 𝓢𝓾𝓹𝓮𝓻 𝓢𝓪𝓲𝔂𝓪𝓷 𝓟𝓻𝓲𝓷𝓬𝓮 𝓲𝓽𝓼𝓮𝓵𝓯 𝓳𝓾𝓼𝓽 𝓳𝓸𝓲𝓷𝓮𝓭🔹. [‎](https://telegra.ph/file/60606d9b1b0ff21d42e75.jpg)" ,
                     reply_to_message_id=reply) 
                 welcome_log = (f"{html.escape(chat.title)}\n"
                                f"#USER_JOINED\n"
