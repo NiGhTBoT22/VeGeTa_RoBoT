@@ -1,6 +1,3 @@
-*Stdout*
-`
-
 import os
 import html
 
@@ -1148,7 +1145,3 @@ __handlers__ = [
     SET_TITLE_HANDLER,
     ADMIN_REFRESH_HANDLER,
 ]
-`
-*Stderr*
-`cat: ls: No such file or directory
-`
