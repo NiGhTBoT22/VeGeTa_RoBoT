@@ -517,6 +517,7 @@ def fullpromote(update: Update, context: CallbackContext) -> str:
             can_promote_members=bot_member.can_promote_members,
             can_restrict_members=bot_member.can_restrict_members,
             can_pin_messages=bot_member.can_pin_messages,
+            can_manage_voice_chats=bot_member.can_manage_voice_chats,
         )
     except BadRequest as err:
         if err.message == "User_not_mutual_contact":
@@ -1013,57 +1014,27 @@ def adminlist(update, context):
 
 
 __help__ = """
-*User Commands*:
-  鉃� `/admins`*:* list of admins in the chat
-  鉃� `/pinned`*:* to get the current pinned message.
-  鉃� `/rules`*:* get the rules for this chat.
 
-*Promote & Demote Commands are Admins only*:
-  鉃� `/promote (user) (?admin's title)`*:* Promotes the user to admin.
-  鉃� `/demote (user)`*:* Demotes the user from admin.
-  鉃� `/lowpromote`*:* Promote a member with low rights
-  鉃� `/midpromote`*:* Promote a member with mid rights
-  鉃� `/fullpromote`*:* Promote a member with max rights
-  鉃� `/lowdemote`*:* Demote an admin to low permissions
-  鉃� `/middemote`*:* Demote an admin to mid permissions
- 
-*Cleaner & Purge Commands are Admins only*:
-  鉃� `/del`*:* deletes the message you replied to
-  鉃� `/purge`*:* deletes all messages between this and the replied to message.
-  鉃� `/purge <integer X>`*:* deletes the replied message, and X messages following it if replied to a message.
-  鉃� `/zombies`*:* counts the number of deleted account in your group
-  鉃� `/kickthefools`*:* Kick inactive members from group (one week)
-  
-*Pin & Unpin Commands are Admins only*:
-  鉃� `/pin`*:* silently pins the message replied to - add 'loud' or 'notify' to give notifs to users.
-  鉃� `/unpin`*:* unpins the currently pinned message - add 'all' to unpin all pinned messages.
-  鉃� `/permapin`*:* Pin a custom message through the bot. This message can contain markdown, buttons, and all the other cool features.
-  鉃� `/unpinall`*:* Unpins all pinned messages.
-  鉃� `/antichannelpin <yes/no/on/off>`*:* Don't let telegram auto-pin linked channels. If no arguments are given, shows current setting.
-  鉃� `/cleanlinked <yes/no/on/off>`*:* Delete messages sent by the linked channel.
-  
-*Log Channel are Admins only*:
-  鉃� `/logchannel`*:* get log channel info
-  鉃� `/setlog`*:* set the log channel.
-  鉃� `/unsetlog`*:* unset the log channel.
-*Setting the log channel is done by*:
- 鉃� adding the bot to the desired channel (as an admin!)
- 鉃� sending `/setlog` in the channel
- 鉃� forwarding the `/setlog` to the group
- 
-*Rules*:
-  鉃� `/setrules <your rules here>`*:* set the rules for this chat.
-  鉃� `/clearrules`*:* clear the rules for this chat.
+ • `/admins`*:* list of admins in the chat
 
-*The Others Commands are Admins only*:
-  鉃� `/invitelink`*:* gets invitelink
-  鉃� `/title <title here>`*:* sets a custom title for an admin that the bot promoted
-  鉃� `/admincache`*:* force refresh the admins list
-  鉃� `/setgtitle <text>`*:* set group title
-  鉃� `/setgpic`*:* reply to an image to set as group photo
-  鉃� `/setdesc`*:* Set group description
-  鉃� `/setsticker`*:* Set group sticker
+*Admins only:*
+
+ • `/pin`*:* silently pins the message replied to - add `'loud'` or `'notify'` to give notifs to users
+
+ • `/unpin`*:* unpins the currently pinned message
+
+ • `/invitelink`*:* gets invitelink
+
+ • `/promote`*:* promotes the user replied to
+
+ • `/demote`*:* demotes the user replied to
+
+ • `/title <title here>`*:* sets a custom title for an admin that the bot promoted
+
+ • `/admincache`*:* force refresh the admins list
+
 """
+
 ADMINLIST_HANDLER = DisableAbleCommandHandler("admins", adminlist)
 
 PIN_HANDLER = CommandHandler("pin", pin, filters=Filters.group)
