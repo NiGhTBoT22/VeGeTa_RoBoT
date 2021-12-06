@@ -1072,9 +1072,9 @@ UNPIN_HANDLER = CommandHandler("unpin", unpin, filters=Filters.group)
 INVITE_HANDLER = DisableAbleCommandHandler("invitelink", invite)
 
 PROMOTE_HANDLER = DisableAbleCommandHandler("promote", promote) 
-FULLPROMOTE_HANDLER = DisableAbleCommandHandler("fullpromote", fullpromote, run_async=True)
-LOW_PROMOTE_HANDLER = DisableAbleCommandHandler("lowpromote", lowpromote, run_async=True)
-MID_PROMOTE_HANDLER = DisableAbleCommandHandler("midpromote", midpromote, run_async=True)
+FULLPROMOTE_HANDLER = DisableAbleCommandHandler("fullpromote", fullpromote,)
+LOW_PROMOTE_HANDLER = DisableAbleCommandHandler("lowpromote", lowpromote,)
+MID_PROMOTE_HANDLER = DisableAbleCommandHandler("midpromote", midpromote,)
 DEMOTE_HANDLER = DisableAbleCommandHandler("demote", demote)
 
 SET_TITLE_HANDLER = CommandHandler("title", set_title)
