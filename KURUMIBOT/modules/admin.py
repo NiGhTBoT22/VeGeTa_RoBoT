@@ -19,8 +19,6 @@ from KURUMIBOT.modules.helper_funcs.chat_status import (bot_admin,
     can_promote,
     connection_status,
     user_admin,
-    user_can_pin,
-    user_can_promote,
     ADMIN_CACHE,
 )
     
