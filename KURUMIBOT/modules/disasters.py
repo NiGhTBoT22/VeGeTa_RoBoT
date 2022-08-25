@@ -520,7 +520,7 @@ def devlist(update: Update, context: CallbackContext):
             reply += f"• {mention_html(user_id, html.escape(user.first_name))}\n"
         except TelegramError:
             pass
-    #update.effective_message.reply_text(reply, parse_mode=ParseMode.HTML)
+    update.effective_message.reply_text(reply, parse_mode=ParseMode.HTML)
 
 
 __help__ = f"""
